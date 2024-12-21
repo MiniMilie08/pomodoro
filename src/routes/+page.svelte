@@ -56,6 +56,7 @@
 
 		timeLeft = getCurrentPeriodTime() * 60;
 		$progress = 100;
+		audioService.playAlert(); // Joue l'alarme à la fin d'un cycle
 	}
 
 	function resetTimer() {
